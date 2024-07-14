@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+
+/*HEADER STARTS*/
+header{
+    background-color: #35424a;
+    border-bottom: 3px solid orangered;
+    
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 95px;
+    margin-top: 18px;
+     
+}
+
+/*for HEADER LEFT*/
+.left-header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: 100px;
+    
+}
+.left-header img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+   
+}
+.text p{
+    margin-top: 13px;
+    margin-left: 8px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    }
+
+/*FOR MIDDLE HEADER*/
+.middle-header{
+    margin-top: 28px;
+    margin-left: 115px;
+}
+.middle-header input{
+    padding: 8px;
+    width: 250px;
+    box-shadow: 2px 2px 12px black;
+}
+/*FOR RIGHT HEADER*/
+.right-header{
+    margin-top: 28px;
+    width: 250px; 
+    margin-left: 230px;  
+    
+}
+.right-header button{
+    padding: 8px;
+    
+
+}
+
+/*HEADER ENDS*/
+
+/*BODY STARTS*/
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: start;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+.hori{
+    display: flex;
+    flex-direction: row;
+}
+.image1 img{
+    height: 340px;
+    width: 350px;
+    border-radius: 5px;
+}
+.sub_img img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+.koc_text{
+    width: 325px;
+    margin-left: 10px;
+}
+.koc_text p{
+    color: #35424a;
+    line-height: 1.3; 
+}
+.when{
+    margin-top: 15px;
+    color: #35424a;
+}
+.account{
+    padding: 8px;
+    font-size: 10px;
+    margin-bottom: 5px;
+    background-color: black;
+    color: white;
+}  
+.account:hover{
+    background-color: white;
+    color: black;
+    transition: background-color 0.15s;
+}  
+/**/
+
+/*FOOTER STARTS*/
+footer{
+    background-color: orangered;
+    height: 240px;
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 80px;
+ 
+}
+/*FOR LEFT FOOTER*/
+.left_footer{
+    margin-left: 100px;
+}
+.left_footer button{
+    padding: 10px;
+    width: 155px;
+    
+}
+/*FOR MIDDLE FOOTER*/
+.middle_footer{
+    padding-bottom: 25px;
+}
+.middle_footer p{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 80px;
+    
+}
+.middle_footer a{
+    text-decoration: none;
+    /* text-align: center; */
+}
+/*FOR RIGHT FOOTER*/
+.right_footer{
+    margin-top: 10px;  
+    margin-left: 210px;  
+    
+
+}
+.right_footer button{
+    padding: 10px;
+    width: 150px;
+}
+.kasi{
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    padding-top: 28px;
+}
+
